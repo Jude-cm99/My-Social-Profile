@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(18, 16, 16);
+    height: fit-content;
+}
+.container{
+    height:fit-content;
+    width:40%;
+    margin: 10% auto 10% auto;
+    position: relative;    
+    background: rgb(44, 43, 43);
+    padding: 1.0rem 1.0rem;
+    border-radius: 30px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    border-radius:50%;
+}
+h1, .about{
+    text-align: center;
+}
+.location{
+    text-align: center;
+    color:yellowgreen;
+}
+.options{
+    text-align: center;
+    padding: 0.1rem 0.1rem;
+    background: rgba(206, 232, 219, 0.244);
+    color: whitesmoke;
+    border-radius: 1rem;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.options:hover{
+    background-color: rgb(199, 132, 132);
+    border-radius: 0.5rem;
+
+}
+@media(max-width: 700px){
+    .options:hover{
+        color:black;
+    }
+}
+
